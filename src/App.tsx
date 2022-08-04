@@ -13,9 +13,12 @@ function App() {
 
   return (
     <div className="container">
-      <h1 className="header mt-5">Random Cat Facts</h1>
-      <h2 className="text-primary mt-5 col-8">{fact}</h2>
-      <button onClick={getNewFact} type="button" className="btn btn-danger mt-2">New Fact</button>
+      <div className="text-center">
+        <h1 className="mt-5">🙀</h1>
+        <h1 className="header mt-2">Random Cat Facts</h1>
+        <h2 className="text-primary mt-5">{fact}</h2>
+        <button onClick={getNewFact} type="button" className="btn btn-danger mt-2">New Fact</button>
+      </div>
     </div>
   );
 }
